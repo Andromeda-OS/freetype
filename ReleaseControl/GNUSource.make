@@ -109,7 +109,7 @@ Install_Flags = prefix="$(RC_Install_Prefix)"	\
 	       htmldir="$(RC_Install_HTML)"	\
 	               $(Extra_Install_Flags)
 
-Install_Target = install-strip
+Install_Target = install
 
 ##
 # Targets
